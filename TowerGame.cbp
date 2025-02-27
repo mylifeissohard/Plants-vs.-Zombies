@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TowerGame" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TowerGame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="allegro-x86_64-w64-mingw32-gcc-10.2.0-posix-seh-static-5.2.7.0 (1)/allegro/lib/liballegro_monolith-debug.dll.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TowerGame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="allegro-x86_64-w64-mingw32-gcc-10.2.0-posix-seh-static-5.2.7.0 (1)/allegro/lib/liballegro_monolith.dll.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="allegro-x86_64-w64-mingw32-gcc-10.2.0-posix-seh-static-5.2.7.0 (1)/allegro/include" />
+		</Compiler>
+		<Unit filename="Arcane.h" />
+		<Unit filename="Archer.h" />
+		<Unit filename="Attack.cpp" />
+		<Unit filename="Attack.h" />
+		<Unit filename="Canon.h" />
+		<Unit filename="CaveMan.h" />
+		<Unit filename="Circle.cpp" />
+		<Unit filename="Circle.h" />
+		<Unit filename="DemonNijia.h" />
+		<Unit filename="GameWindow.cpp" />
+		<Unit filename="GameWindow.h" />
+		<Unit filename="Level.cpp" />
+		<Unit filename="Level.h" />
+		<Unit filename="Main.cpp" />
+		<Unit filename="Menu.cpp" />
+		<Unit filename="Menu.h" />
+		<Unit filename="Monster.cpp" />
+		<Unit filename="Monster.h" />
+		<Unit filename="Object.h" />
+		<Unit filename="Poison.h" />
+		<Unit filename="Slider.cpp" />
+		<Unit filename="Slider.h" />
+		<Unit filename="Storm.h" />
+		<Unit filename="Tower.cpp" />
+		<Unit filename="Tower.h" />
+		<Unit filename="Wolf.h" />
+		<Unit filename="WolfKnight.h" />
+		<Unit filename="global.cpp" />
+		<Unit filename="global.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

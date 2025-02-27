@@ -1,0 +1,24 @@
+Arcane:
+	const int width = 72
+	const int height = 121
+===================================
+Archer:
+	const int width = 66
+	const int height = 108
+===================================
+Canon:
+	const int width = 72
+	const int height = 69
+===================================
+Poison:
+	const int width = 59
+	const int height = 98
+===================================
+Storm:
+	const int width = 45
+	const int height = 112
+	
+===================================
+al_init_native_dialog_addon();
+filechooser = al_create_native_file_dialog(NULL, "Choose a file.", "*.*;*.jpg;*.png;", ALLEGRO_FILECHOOSER_MULTIPLE);
+al_show_native_file_dialog(al_get_current_display(), filechooser);
